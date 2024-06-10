@@ -1,0 +1,79 @@
+/* Убираем стрелки у input с типом number */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.wrap {
+	width: 550px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form {
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.wrap-input {
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-top: 10px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.input-other {
+	width: 200px;
+}
+
+.input-submit {
+	width: 80px;
+	background-color: white;
+	align-self: flex-end;
+	cursor: pointer;
+}
+
+table {
+	width: 520px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+	text-align: center;
+}
+
+.btn {
+	margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  width: 16px;
+  height: 16px; 
+  border: none;
+	cursor: pointer;
+  background-color: transparent; /* Сделаем фон прозрачным */
+}
+
+.btn-edit {
+  background-image: url('../../assets/pencil-icon.png');
+}
+
+.btn-del {
+  background-image: url('../../assets/incorrect-icon.png');
+}

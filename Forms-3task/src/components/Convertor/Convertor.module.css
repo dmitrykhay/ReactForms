@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--wrap-bg-color);
+}
+
+.input {
+	height: 30px;
+	width: 150px;
+	text-align: center;
+}
+
+.rgb {
+	height: 30px;
+	width: 150px;
+	border: 1px solid rgb(0, 0, 0);
+	text-align: center;
+	line-height: 30px;
+	background-color: var(--wrap-bg-color);
+}
